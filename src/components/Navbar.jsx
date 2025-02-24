@@ -32,9 +32,13 @@ const Navbar = () => {
 
           {/* this is md nav  */}
           <div className="md:flex md:gap-4 md:font-medium hidden">
-            <div className="hover:text-mblue cursor-pointer">ABOUT ME</div>
-            <div className="hover:text-mblue cursor-pointer">WORK</div>
-            <div className="hover:text-mblue cursor-pointer">CONTACT</div>
+            <NavLink className="hover:text-mblue cursor-pointer">
+              ABOUT ME
+            </NavLink>
+            <NavLink className="hover:text-mblue cursor-pointer">WORKS</NavLink>
+            <NavLink className="hover:text-mblue cursor-pointer">
+              CONTACT
+            </NavLink>
           </div>
           {/* this is md nav  */}
         </div>
@@ -51,9 +55,9 @@ const Navbar = () => {
       >
         <div className="flex flex-col justify-between mt-4">
           {" "}
-          <NavLink className="py-2">ABOUT ME</NavLink>
-          <NavLink className="py-2">WORK</NavLink>
-          <NavLink className="py-2">CONTACT</NavLink>
+          <NavLink className="py-2 active:text-mblue">ABOUT ME</NavLink>
+          <NavLink className="py-2 active:text-mblue">WORKS</NavLink>
+          <NavLink className="py-2 active:text-mblue">CONTACT</NavLink>
         </div>
       </div>
     </section>
