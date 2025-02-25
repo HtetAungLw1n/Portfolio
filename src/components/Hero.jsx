@@ -14,7 +14,7 @@ const Hero = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.35 }}
             >
-              Bridging Design and Development
+              Delivering Front-End Development
             </motion.div>
           </div>
           <div className="overflow-hidden">
@@ -48,10 +48,11 @@ const Hero = () => {
               React.
             </span>{" "}
             <span className="md:inline hidden">
-              I thrive in agile environments where clean code, collaboration,
-              and innovation fuel business success.
+              Additionaly I have experience in backend and database enviornment
+              (firebase and mysql).
             </span>{" "}
-            Ability to collaborate effectively with designers and engineers.
+            Therefore I can collaborate effectively with designers and
+            engineers.
           </div>
         </motion.div>
       </div>
