@@ -27,7 +27,7 @@ const FramerMagnet = ({ children }) => {
       onMouseLeave={mouseLeave}
       animate={{ x, y }}
       transition={{ type: "spring", stiffness: 150, damping: 15, mass: 0.1 }}
-      className=" text-mblue  float-start ml-10 w-32 h-32 rounded-full flex flex-col items-center justify-center border-2 border-mblue hover:bg-mblue hover:text-white-smoke transition-colors duration-200 ease-in-out"
+      className=" text-mblue  float-start ml-14 w-52 h-52 rounded-full flex flex-col items-center justify-center border-2 border-mblue hover:bg-mblue hover:text-white-smoke transition-colors duration-200 ease-in-out"
     >
       {children}
     </motion.div>

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import FramerMagnet from "./FramerMagnet";
+import { GoDownload } from "react-icons/go";
 
 const Hero = () => {
   return (
@@ -34,7 +35,10 @@ const Hero = () => {
         >
           <div className="hidden md:block md:w-[45%] cursor-pointer">
             <FramerMagnet>
-              <div>MY CV</div>
+              <div>My CV</div>
+              <div>
+                <GoDownload className="text-2xl mt-4" />
+              </div>
             </FramerMagnet>
           </div>
           <div className="md:w-[50%] leading-5 md:leading-9">

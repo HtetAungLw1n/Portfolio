@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Navbar = () => {
   const [burgerClass, setBurgerClass] = useState("burger-bar unclicked");
@@ -32,12 +33,15 @@ const Navbar = () => {
 
           {/* this is md nav  */}
           <div className="md:flex md:gap-4 md:font-medium hidden">
-            <NavLink className="hover:text-mblue cursor-pointer">
+            <NavLink className="hover:text-mblue cursor-pointer flex items-center gap-2">
               ABOUT ME
+              <GoArrowUpRight className="text-xl" />
             </NavLink>
-            <NavLink className="hover:text-mblue cursor-pointer">WORKS</NavLink>
-            <NavLink className="hover:text-mblue cursor-pointer">
-              CONTACT
+            <NavLink className="hover:text-mblue cursor-pointer flex items-center gap-2">
+              WORKS <GoArrowUpRight className="text-xl" />
+            </NavLink>
+            <NavLink className="hover:text-mblue cursor-pointer flex items-center gap-2">
+              CONTACT <GoArrowUpRight className="text-xl" />
             </NavLink>
           </div>
           {/* this is md nav  */}
