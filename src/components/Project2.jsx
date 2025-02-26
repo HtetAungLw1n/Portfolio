@@ -7,11 +7,11 @@ import { SiXampp } from "react-icons/si";
 const Project2 = () => {
   return (
     <motion.section
-      className="bg-gray-200 w-full rounded-lg p-4 h-max md:mt-[70%]"
+      className="bg-zinc-200 w-full rounded-lg p-4 h-max md:mt-[75%]"
       initial={{ opacity: 0, y: 15 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
+      transition={{ duration: 1 }}
     >
       <div className="text-xl text-center uppercase font-semibold md:text-3xl">
         Mini Soical Media

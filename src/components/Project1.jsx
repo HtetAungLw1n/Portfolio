@@ -6,11 +6,11 @@ import { RiTailwindCssFill } from "react-icons/ri";
 const Project1 = () => {
   return (
     <motion.section
-      className="bg-gray-200 w-full rounded-lg p-4 h-max"
+      className="bg-zinc-200 w-full rounded-lg p-4 h-max"
       initial={{ opacity: 0, y: 15 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 0.8 }}
+      transition={{ duration: 1 }}
     >
       <div className="text-xl text-center uppercase font-semibold md:text-3xl">
         Randomly
@@ -44,11 +44,11 @@ const Project1 = () => {
           <div className=" flex items-center gap-2">
             <FaReact /> React
           </div>
-          <div className="  flex items-center gap-2">
+          <div className="text-neutral-600  flex items-center gap-2">
             <FaNodeJs />
             Node.js
           </div>
-          <div className="  flex items-center gap-2">
+          <div className="text-neutral-600  flex items-center gap-2">
             <RiTailwindCssFill />
             Tailwind
           </div>
