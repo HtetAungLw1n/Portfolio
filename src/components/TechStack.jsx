@@ -18,7 +18,7 @@ const TechStack = () => {
         initial={{ opacity: 0, y: 15 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.5, delay: 0.2 }}
       >
         {/* react  */}
         <section className="bg-zinc-200 rounded p-4  w-20  h-20 md:w-36 md:h-36 hover:shadow-lg transition-shadow duration-300">
@@ -171,6 +171,22 @@ const TechStack = () => {
           <div className="text-center mt-2 md:mt-4">
             <div className="text-xs md:text-lg">MySQL</div>
             <div className="text-xs hidden md:block">Database</div>
+          </div>
+        </section>
+        {/* Framer  */}
+        <section className="bg-zinc-200 rounded p-4  w-20  h-20 md:w-36 md:h-36 hover:shadow-lg transition-shadow duration-300">
+          <svg
+            role="img"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-8 h-8 md:w-12 md:h-12 fill-[#0055FF] mx-auto"
+          >
+            <title>Framer</title>
+            <path d="M4 0h16v8h-8zM4 8h8l8 8H4zM4 16h8v8z" />
+          </svg>
+          <div className="text-center mt-2 md:mt-4">
+            <div className="text-xs md:text-lg">Framer</div>
+            <div className="text-xs hidden md:block">Animation Library</div>
           </div>
         </section>
         {/* XAMPP  */}

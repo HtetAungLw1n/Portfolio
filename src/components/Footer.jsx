@@ -17,7 +17,7 @@ const Footer = () => {
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.4 }}
+          transition={{ duration: 0.5 }}
         >
           <div className="hidden md:block">Socials</div>
           <div className="flex gap-4 md:text-2xl md:mt-4">
@@ -65,12 +65,14 @@ const Footer = () => {
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.6 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
         >
           <div>Navigation</div>
           <div className="flex flex-col mt-2">
             <Link className="hover:text-mblue">works</Link>
-            <Link className="hover:text-mblue">my story</Link>
+            <Link to={"/about-me"} className="hover:text-mblue">
+              my story
+            </Link>
           </div>
         </motion.div>
         <motion.div
@@ -78,8 +80,9 @@ const Footer = () => {
           initial={{ opacity: 0, y: 15 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.5, delay: 0.8 }}
+          transition={{ duration: 0.5, delay: 0.4 }}
         >
+          <div>" Research / Document / Design / Develop / Deploy "</div>
           Htet Aung Lwin @ 2025
         </motion.div>
       </div>

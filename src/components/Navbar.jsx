@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { GoArrowUpRight } from "react-icons/go";
 
 const Navbar = () => {
@@ -13,12 +13,17 @@ const Navbar = () => {
     );
   };
 
+  const closeWhenClick = () => {
+    setIsMenuClicked(false);
+    setBurgerClass("burger-bar unclicked");
+  };
+
   return (
     <section className="fixed w-full">
       <div className="flex justify-between items-center px-4 py-2 md:py-4 md:px-0 container mx-auto">
-        <div className="uppercase font-semibold text-sm md:text-xl">
+        <Link to={"/"} className="uppercase font-semibold text-sm md:text-xl">
           htet aung lwin
-        </div>
+        </Link>
         <div>
           {/* this is burger  */}
           <div
@@ -33,7 +38,10 @@ const Navbar = () => {
 
           {/* this is md nav  */}
           <div className="md:flex md:gap-4 md:font-medium hidden">
-            <NavLink className="hover:text-mblue cursor-pointer flex items-center gap-2">
+            <NavLink
+              to={"/about-me"}
+              className="hover:text-mblue cursor-pointer flex items-center gap-2"
+            >
               ABOUT ME
               <GoArrowUpRight className="text-xl" />
             </NavLink>
@@ -58,10 +66,26 @@ const Navbar = () => {
         }`}
       >
         <div className="flex flex-col justify-between mt-4">
-          {" "}
-          <NavLink className="py-2 active:text-mblue">ABOUT ME</NavLink>
-          <NavLink className="py-2 active:text-mblue">WORKS</NavLink>
-          <NavLink className="py-2 active:text-mblue">CONTACT</NavLink>
+          <NavLink
+            to={""}
+            onClick={closeWhenClick}
+            className="py-2 active:text-mblue"
+          >
+            HOME
+          </NavLink>
+          <NavLink
+            to={"/about-me"}
+            onClick={closeWhenClick}
+            className="py-2 active:text-mblue"
+          >
+            ABOUT ME
+          </NavLink>
+          <NavLink onClick={closeWhenClick} className="py-2 active:text-mblue">
+            WORKS
+          </NavLink>
+          <NavLink onClick={closeWhenClick} className="py-2 active:text-mblue">
+            CONTACT
+          </NavLink>
         </div>
       </div>
     </section>
