@@ -5,7 +5,7 @@ import { GoDownload } from "react-icons/go";
 
 const Hero = () => {
   return (
-    <section className=" h-[40vh] md:h-[100vh] container mx-auto">
+    <section className="h-[40vh] md:h-[100vh] container mx-auto">
       <div className="h-full flex flex-col justify-center items-center gap-8 md:gap-20 text-center md:text-start md:items-start">
         <div className="text-2xl font-medium leading-8 md:text-5xl md:leading-16 tracking-normal md:tracking-wide md:mt-20">
           <div className="overflow-hidden">
