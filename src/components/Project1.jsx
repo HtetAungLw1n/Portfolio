@@ -41,7 +41,7 @@ const Project1 = () => {
           </Link>
         </div>
         <div className="tech text-sm flex gap-4 mt-4 md:text-lg">
-          <div className=" flex items-center gap-2">
+          <div className="text-neutral-600 flex items-center gap-2">
             <FaReact /> React
           </div>
           <div className="text-neutral-600  flex items-center gap-2">

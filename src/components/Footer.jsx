@@ -8,7 +8,10 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <section>
-      <div className="w-full bg-mblue text-white-smoke text-3xl md:text-6xl  py-10 md:py-14 flex justify-center items-center gap-4 md:gap-8">
+      <div
+        id="#contact"
+        className="w-full bg-mblue text-white-smoke text-3xl md:text-6xl  py-10 md:py-14 flex justify-center items-center gap-4 md:gap-8"
+      >
         <span>Let's Work Together</span>{" "}
         <LuBadgeCheck className="md:text-7xl" />
       </div>

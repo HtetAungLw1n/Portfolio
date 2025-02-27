@@ -2,7 +2,7 @@ import React from "react";
 import ProjectList from "./ProjectList";
 import { motion } from "framer-motion";
 
-const Works = () => {
+const SelectedWorks = () => {
   return (
     <section className="container mx-auto px-4">
       <motion.div
@@ -19,4 +19,4 @@ const Works = () => {
   );
 };
 
-export default Works;
+export default SelectedWorks;

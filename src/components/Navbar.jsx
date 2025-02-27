@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <section className="fixed w-full">
+    <section className="fixed w-full z-30">
       <div className="flex justify-between items-center px-4 py-2 md:py-4 md:px-0 container mx-auto">
         <Link to={"/"} className="uppercase font-semibold text-sm md:text-xl">
           htet aung lwin
@@ -45,10 +45,16 @@ const Navbar = () => {
               ABOUT ME
               <GoArrowUpRight className="text-xl" />
             </NavLink>
-            <NavLink className="hover:text-mblue cursor-pointer flex items-center gap-2">
+            <NavLink
+              to={"/works"}
+              className="hover:text-mblue cursor-pointer flex items-center gap-2"
+            >
               WORKS <GoArrowUpRight className="text-xl" />
             </NavLink>
-            <NavLink className="hover:text-mblue cursor-pointer flex items-center gap-2">
+            <NavLink
+              to={""}
+              className="hover:text-mblue cursor-pointer flex items-center gap-2"
+            >
               CONTACT <GoArrowUpRight className="text-xl" />
             </NavLink>
           </div>
@@ -80,10 +86,18 @@ const Navbar = () => {
           >
             ABOUT ME
           </NavLink>
-          <NavLink onClick={closeWhenClick} className="py-2 active:text-mblue">
+          <NavLink
+            to={"/works"}
+            onClick={closeWhenClick}
+            className="py-2 active:text-mblue"
+          >
             WORKS
           </NavLink>
-          <NavLink onClick={closeWhenClick} className="py-2 active:text-mblue">
+          <NavLink
+            to={""}
+            onClick={closeWhenClick}
+            className="py-2 active:text-mblue"
+          >
             CONTACT
           </NavLink>
         </div>

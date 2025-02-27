@@ -1,6 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero";
-import Works from "../components/Works";
+import SelectedWorks from "../components/SelectedWorks";
 import TechStack from "../components/TechStack";
 import Footer from "../components/Footer";
 
@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className="z-10">
       <Hero />
-      <Works />
+      <SelectedWorks />
       <TechStack />
       <Footer />
     </div>
