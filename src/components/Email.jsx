@@ -25,7 +25,7 @@ const Email = () => {
   return (
     <motion.section
       className="px-4 py-20 pb-16 container mx-auto md:w-[30%]"
-      initial={{ opacity: 0, y: -15 }}
+      initial={{ opacity: 0, y: 15 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >

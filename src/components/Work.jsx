@@ -11,7 +11,7 @@ const Work = ({ project }) => {
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
-          duration: 1,
+          duration: 0.5,
           delay: project.id === 1 ? 0 : project.id * 0.2,
         }}
       >

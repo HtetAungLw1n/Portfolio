@@ -10,7 +10,7 @@ const Project1 = () => {
       initial={{ opacity: 0, y: 15 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
-      transition={{ duration: 1 }}
+      transition={{ duration: 0.8 }}
     >
       <div className="text-xl text-center uppercase font-semibold md:text-3xl">
         Randomly

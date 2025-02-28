@@ -12,7 +12,7 @@ const Hero = () => {
             <motion.div
               initial={{ y: "100%", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.35 }}
+              transition={{ duration: 0.5 }}
             >
               Delivering Front-End Development
             </motion.div>
@@ -21,7 +21,7 @@ const Hero = () => {
             <motion.div
               initial={{ y: "100%", opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.35, delay: 0.1 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
             >
               For Your Business Needs.
             </motion.div>

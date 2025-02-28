@@ -9,7 +9,7 @@ const TechStack = () => {
         initial={{ opacity: 0, y: 15 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.8 }}
       >
         Tech Stack
       </motion.div>
@@ -18,7 +18,7 @@ const TechStack = () => {
         initial={{ opacity: 0, y: 15 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
-        transition={{ duration: 0.5, delay: 0.2 }}
+        transition={{ duration: 0.8, delay: 0.2 }}
       >
         {/* react  */}
         <section className="bg-zinc-200 rounded p-4  w-20  h-20 md:w-36 md:h-36 hover:shadow-lg transition-shadow duration-300">
