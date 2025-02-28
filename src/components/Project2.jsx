@@ -18,7 +18,7 @@ const Project2 = () => {
       </div>
       <div className="rounded-md overflow-hidden my-4">
         <img
-          src="../../images/minisocialmedia.png"
+          src="../src/assets/minisocialmedia.png"
           alt=""
           className="object-cover"
         />

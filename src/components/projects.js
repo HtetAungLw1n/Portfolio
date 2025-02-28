@@ -7,7 +7,7 @@ export const projects = [
     demolink: "https://randomly.netlify.app/",
     githublink: "https://github.com/HtetAungLw1n/Randomly.git",
     tech: ["React", "Tailwind Css", "Vite", "Node.js"],
-    image: "../../images/randomly.png",
+    image: "../src/assets/randomly.png",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ export const projects = [
     demolink: null,
     githublink: "https://github.com/HtetAungLw1n/mini-social-media.git",
     tech: ["Php", "Tailwind Css", "MySql", "Xampp"],
-    image: "../../images/minisocialmedia.png",
+    image: "../src/assets/minisocialmedia.png",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ export const projects = [
     demolink: null,
     githublink: "https://github.com/HtetAungLw1n/coffee-bar.git",
     tech: ["Html", "Tailwind Css", "Javascript", "Vite"],
-    image: "../../images/coffeebar.png",
+    image: "../src/assets/coffeebar.png",
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ export const projects = [
     demolink: null,
     githublink: "https://github.com/HtetAungLw1n/medi-cart.git",
     tech: ["React", "React Redux", "Tailwind Css", "Vite"],
-    image: "../../images/medicart.png",
+    image: "../src/assets/medicart.png",
   },
   {
     id: 6,
@@ -45,6 +45,6 @@ export const projects = [
     demolink: "https://htetaunglw1n.github.io/jujutsu-kaisen/",
     githublink: "https://github.com/HtetAungLw1n/jujutsu-kaisen.git",
     tech: ["Html", "Css", "Javascript"],
-    image: "../../images/jujutsukaisen.png",
+    image: "../src/assets/jujutsukaisen.png",
   },
 ];

@@ -16,7 +16,7 @@ const Project1 = () => {
         Randomly
       </div>
       <div className="rounded-md overflow-hidden my-4">
-        <img src="../../images/randomly.png" alt="" className="object-cover" />
+        <img src="../src/assets/randomly.png" alt="" className="object-cover" />
       </div>
       <div>
         <div className="text-sm text-neutral-600 leading-6 md:text-lg">
