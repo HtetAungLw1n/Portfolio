@@ -15,7 +15,7 @@ export const projects = [
     description: " PHP နဲ့ MySql သုံးထား တဲ့ Mini Social Media Website.",
     demolink: null,
     githublink: "https://github.com/HtetAungLw1n/mini-social-media.git",
-    tech: ["Php", "Tailwind Css", "Xampp"],
+    tech: ["Php", "Tailwind Css", "MySql", "Xampp"],
     image: "../../images/minisocialmedia.png",
   },
   {

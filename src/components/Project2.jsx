@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { RiPhpLine, RiTailwindCssFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
-import { SiXampp } from "react-icons/si";
+import { SiXampp, SiMysql } from "react-icons/si";
 
 const Project2 = () => {
   return (
@@ -40,6 +40,9 @@ const Project2 = () => {
         <div className="tech text-sm flex gap-4 mt-4 md:text-lg">
           <div className="text-neutral-600 flex items-center gap-2">
             <RiPhpLine /> Php
+          </div>
+          <div className="text-neutral-600 flex items-center gap-2">
+            <SiMysql /> MySql
           </div>
           <div className="text-neutral-600 flex items-center gap-2">
             <SiXampp />

@@ -50,7 +50,7 @@ const Work = ({ project }) => {
               Github
             </Link>
           </div>
-          <div className="tech text-sm flex gap-4 mt-4 md:text-lg">
+          <div className="tech text-sm flex gap-4 mt-4 md:text-lg flex-wrap">
             {project.tech.map((item, index) => (
               <div
                 className="text-neutral-600 flex items-center gap-2"
