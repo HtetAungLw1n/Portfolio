@@ -5,14 +5,14 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import { FaThreads } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+const Footer = ({ footerText }) => {
   return (
     <section>
       <div
         id="#contact"
         className="w-full bg-mblue text-white-smoke text-3xl md:text-6xl  py-10 md:py-14 flex justify-center items-center gap-4 md:gap-8"
       >
-        <span>Let's Work Together</span>{" "}
+        <span>{footerText ? footerText : "Let's Work Together"}</span>
         <LuBadgeCheck className="md:text-7xl" />
       </div>
       <div className="container mx-auto px-4 py-10 flex flex-col md:flex-row justify-between md:items-start">

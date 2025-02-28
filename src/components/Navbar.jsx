@@ -52,7 +52,7 @@ const Navbar = () => {
               WORKS <GoArrowUpRight className="text-xl" />
             </NavLink>
             <NavLink
-              to={""}
+              to={"/contact"}
               className="hover:text-mblue cursor-pointer flex items-center gap-2"
             >
               CONTACT <GoArrowUpRight className="text-xl" />
@@ -94,7 +94,7 @@ const Navbar = () => {
             WORKS
           </NavLink>
           <NavLink
-            to={""}
+            to={"/contact"}
             onClick={closeWhenClick}
             className="py-2 active:text-mblue"
           >
