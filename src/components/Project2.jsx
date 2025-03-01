@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { RiPhpLine, RiTailwindCssFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 import { SiXampp, SiMysql } from "react-icons/si";
+import image from "../assets/minisocialmedia.png";
 
 const Project2 = () => {
   return (
@@ -17,11 +18,7 @@ const Project2 = () => {
         Mini Soical Media
       </div>
       <div className="rounded-md overflow-hidden my-4">
-        <img
-          src="../src/assets/minisocialmedia.png"
-          alt=""
-          className="object-cover"
-        />
+        <img src={image} alt="" className="object-cover" />
       </div>
       <div>
         <div className="text-sm text-neutral-600 leading-6 md:text-lg">

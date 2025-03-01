@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
+import image from "../assets/randomly.png";
 
 const Project1 = () => {
   return (
@@ -16,7 +17,7 @@ const Project1 = () => {
         Randomly
       </div>
       <div className="rounded-md overflow-hidden my-4">
-        <img src="../src/assets/randomly.png" alt="" className="object-cover" />
+        <img src={image} alt="" className="object-cover" />
       </div>
       <div>
         <div className="text-sm text-neutral-600 leading-6 md:text-lg">
