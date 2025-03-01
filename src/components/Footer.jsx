@@ -72,9 +72,14 @@ const Footer = ({ footerText }) => {
         >
           <div>Navigation</div>
           <div className="flex flex-col mt-2">
-            <Link className="hover:text-mblue">works</Link>
+            <Link to={"/works"} className="hover:text-mblue">
+              works
+            </Link>
             <Link to={"/about-me"} className="hover:text-mblue">
               my story
+            </Link>
+            <Link to={"/contact"} className="hover:text-mblue">
+              contact
             </Link>
           </div>
         </motion.div>
