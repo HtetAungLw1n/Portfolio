@@ -1,3 +1,9 @@
+import randomly from "../assets/randomly.png";
+import minisocialmedia from "../assets/minisocialmedia.png";
+import coffeebar from "../assets/coffeebar.png";
+import medicart from "../assets/medicart.png";
+import jujutsukaisen from "../assets/jujutsukaisen.png";
+
 export const projects = [
   {
     id: 1,
@@ -7,7 +13,7 @@ export const projects = [
     demolink: "https://randomly.netlify.app/",
     githublink: "https://github.com/HtetAungLw1n/Randomly.git",
     tech: ["React", "Tailwind Css", "Vite", "Node.js"],
-    image: "../src/assets/randomly.png",
+    image: randomly,
   },
   {
     id: 2,
@@ -16,7 +22,7 @@ export const projects = [
     demolink: null,
     githublink: "https://github.com/HtetAungLw1n/mini-social-media.git",
     tech: ["Php", "Tailwind Css", "MySql", "Xampp"],
-    image: "../src/assets/minisocialmedia.png",
+    image: minisocialmedia,
   },
   {
     id: 3,
@@ -26,7 +32,7 @@ export const projects = [
     demolink: null,
     githublink: "https://github.com/HtetAungLw1n/coffee-bar.git",
     tech: ["Html", "Tailwind Css", "Javascript", "Vite"],
-    image: "../src/assets/coffeebar.png",
+    image: coffeebar,
   },
   {
     id: 4,
@@ -36,7 +42,7 @@ export const projects = [
     demolink: null,
     githublink: "https://github.com/HtetAungLw1n/medi-cart.git",
     tech: ["React", "React Redux", "Tailwind Css", "Vite"],
-    image: "../src/assets/medicart.png",
+    image: medicart,
   },
   {
     id: 6,
@@ -45,6 +51,6 @@ export const projects = [
     demolink: "https://htetaunglw1n.github.io/jujutsu-kaisen/",
     githublink: "https://github.com/HtetAungLw1n/jujutsu-kaisen.git",
     tech: ["Html", "Css", "Javascript"],
-    image: "../src/assets/jujutsukaisen.png",
+    image: jujutsukaisen,
   },
 ];
