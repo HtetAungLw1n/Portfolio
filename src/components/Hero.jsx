@@ -34,16 +34,18 @@ const Hero = () => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.9 }}
         >
-          <div className="hidden md:block md:w-[45%] cursor-pointer">
+          <a
+            href={cv}
+            download="cv"
+            className="hidden md:block md:w-[45%] cursor-pointer"
+          >
             <FramerMagnet>
-              <a href={cv} download="cv">
-                My CV
-              </a>
+              <div>My CV</div>
               <div>
                 <GoDownload className="text-2xl mt-4" />
               </div>
             </FramerMagnet>
-          </div>
+          </a>
           <div className="md:w-[50%] leading-5 md:leading-9">
             My name is Htet Aung Lwin. I'm from Yangon. I specialize in
             front-end development with{" "}
