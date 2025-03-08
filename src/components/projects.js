@@ -3,6 +3,7 @@ import minisocialmedia from "../assets/minisocialmedia.png";
 import coffeebar from "../assets/coffeebar.png";
 import medicart from "../assets/medicart.png";
 import jujutsukaisen from "../assets/jujutsukaisen.png";
+import taiju from "../assets/taiju.png";
 
 export const projects = [
   {
@@ -26,6 +27,17 @@ export const projects = [
   },
   {
     id: 3,
+    name: "Taiju",
+    description:
+      "  မိမိ acc တစ်ခုထဲနဲ့ တစ်ခြားသော platform တွေက acc တွေကို Link အဖြစ်နဲ့စုပေးထားနိုင်တဲ့ Website.",
+    demolink: null,
+    githublink: "https://github.com/HtetAungLw1n/Taiju.git",
+    tech: ["React", "Tailwind Css", "Firebase", "Vite"],
+    image: taiju,
+  },
+
+  {
+    id: 4,
     name: "Coffee Bar",
     description:
       "Coffee ချစ်သူတွေ ကိုယ်တိုင်ကော်ဖီတစ်ခွက် ပြုလုပ်နိုင်ဖို့ Recipes တွေရှိတဲ့ Blog.",
@@ -35,7 +47,7 @@ export const projects = [
     image: coffeebar,
   },
   {
-    id: 4,
+    id: 5,
     name: "Medi-Cart",
     description:
       "React Redux အသုံးပြုထားတဲ့ ဆေးတွေကို Cart system နဲ့ မှာယူလို့ရတဲ့ Project.",

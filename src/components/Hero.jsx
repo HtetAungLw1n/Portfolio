@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="h-[40vh] md:h-[100vh] container mx-auto">
       <div className="h-full flex flex-col justify-center items-center gap-8 md:gap-20 text-center md:text-start md:items-start">
-        <div className="text-2xl font-medium leading-8 md:text-5xl md:leading-16 tracking-normal md:tracking-wide md:mt-20">
+        <div className="text-xl font-medium leading-8 md:text-5xl md:leading-16 tracking-normal md:tracking-wide md:mt-20">
           <div className="overflow-hidden">
             <motion.div
               initial={{ y: "100%", opacity: 0 }}
@@ -52,9 +52,8 @@ const Hero = () => {
             <span className="underline decoration-wavy decoration-1 underline-offset-4 md:decoration-2 md:underline-offset-8 decoration-mblue">
               React.
             </span>{" "}
-            <span className="md:inline hidden">
-              Additionaly I have experience in backend and database enviornment
-              (firebase and mysql).
+            <span className="md:inline">
+              Additionaly I have experience in backend and database enviornment.
             </span>{" "}
             Therefore I can collaborate effectively with designers and
             engineers.

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, Links, NavLink } from "react-router-dom";
 import { GoArrowUpRight } from "react-icons/go";
+import cv from "../assets/cv.pdf";
 
 const Navbar = () => {
   const [burgerClass, setBurgerClass] = useState("burger-bar unclicked");
@@ -93,6 +94,9 @@ const Navbar = () => {
           >
             WORKS
           </NavLink>
+          <a href={cv} download="cv" className="py-2 active:text-mblue">
+            RESUME
+          </a>
           <NavLink
             to={"/contact"}
             onClick={closeWhenClick}

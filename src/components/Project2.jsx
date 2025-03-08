@@ -21,8 +21,10 @@ const Project2 = () => {
         <img src={image} alt="" className="object-cover" />
       </div>
       <div>
-        <div className="text-sm text-neutral-600 leading-6 md:text-lg">
-          PHP နဲ့ MySql သုံးထား တဲ့ Mini Social Media Website.
+        <div className="text-sm text-neutral-600 leading-6 md:text-lg md:leading-9">
+          PHP နဲ့ MySql သုံးထား တဲ့ Mini Social Media Website. User တွေက
+          မိမိကိုယ်ပိုင် acc နဲ့ posts တင်, comments မန့်နိုင်ပြီး Acc name
+          change ခြင်းအပြင် Password ပါ ပြန်ပြောင်းနိုင်ပါတယ်.
         </div>
         <div className="flex gap-4 mt-4 text-base md:text-lg md:mt-6">
           <Link

@@ -90,7 +90,7 @@ const Footer = ({ footerText }) => {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.4 }}
         >
-          <div>" Research / Document / Design / Develop / Deploy "</div>
+          <div>"Research / Document / Design / Develop / Deploy"</div>
           Htet Aung Lwin @ 2025
         </motion.div>
       </div>
