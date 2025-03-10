@@ -94,7 +94,7 @@ const Navbar = () => {
           >
             WORKS
           </NavLink>
-          <a href={cv} download="cv" className="py-2 active:text-mblue">
+          <a href={cv} download="FD_HAL" className="py-2 active:text-mblue">
             RESUME
           </a>
           <NavLink

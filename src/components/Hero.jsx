@@ -36,7 +36,7 @@ const Hero = () => {
         >
           <a
             href={cv}
-            download="cv"
+            download="FD_HAL"
             className="hidden md:block md:w-[45%] cursor-pointer"
           >
             <FramerMagnet>
@@ -52,11 +52,11 @@ const Hero = () => {
             <span className="underline decoration-wavy decoration-1 underline-offset-4 md:decoration-2 md:underline-offset-8 decoration-mblue">
               React.
             </span>{" "}
-            <span className="md:inline">
+            <span className="md:inline hidden">
               Additionaly I have experience in backend and database enviornment.
-            </span>{" "}
-            Therefore I can collaborate effectively with designers and
-            engineers.
+              Therefore I can collaborate effectively with designers and
+              engineers.
+            </span>
           </div>
         </motion.div>
       </div>
