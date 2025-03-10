@@ -25,13 +25,13 @@ const Project3 = () => {
           စုပေးထားနိုင်တဲ့ Website.
         </div>
         <div className="flex gap-4 mt-4 text-base md:text-lg md:mt-6">
-          <Link
+          {/* <Link
             to={""}
             target="_blank"
             className="rounded px-4 py-0.5 flex items-center gap-2 text-mblue border-2 border-mblue hover:bg-mblue hover:text-white-smoke transition duration-200 ease-in-out"
           >
             Project demo
-          </Link>
+          </Link> */}
           <Link
             to={"https://github.com/HtetAungLw1n/Taiju.git"}
             target="_blank"
