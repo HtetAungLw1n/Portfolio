@@ -100,12 +100,46 @@ const About = () => {
           .
         </div>
         <ul className="text-sm md:text-lg text-neutral-600 text-pretty mt-2 list-disc pl-6">
-          <li>A gaming content page.</li>
           <li>
-            {" "}
-            As a founder, as a graphic desginer, as a video creator, I give all
-            my best for the page and it grew so fast to the point it hit{" "}
-            <span className="font-semibold"> 990K followers</span> in 2023.
+            Founder and manager of gaming content pages with over{" "}
+            <span className="font-semibold"> 990K followers</span>.
+          </li>
+          <li>
+            Created engaging gaming video content, including gameplay
+            highlights, tutorials, and reviews.
+          </li>
+          <li>
+            Developed non-video content such as blogs, infographics, and social
+            media posts to educate and entertain the audience.
+          </li>
+          <li>
+            Managed content strategy, audience engagement, and community
+            building through interactive posts, live streaming, and discussions.
+          </li>
+        </ul>
+      </motion.div>
+      <motion.div
+        className="bg-zinc-200 p-4 md:py-8 rounded mb-8"
+        initial={{ opacity: 0, y: 15 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 0.8 }}
+      >
+        <div className="text-xs md:text-sm text-neutral-600">In 2021</div>
+        <div className="text-lg md:text-2xl text-pretty mb-4">
+          I become{" "}
+          <span className="underline bg-gradient-to-tr from-[#1041f0] to-[#4f9105] bg-clip-text text-transparent">
+            Talent star
+          </span>{" "}
+          at Tier One Entertainment{" "}
+        </div>
+        <ul className="text-sm md:text-lg text-neutral-600 text-pretty mt-2 list-disc pl-6">
+          <li>
+            Represented as an official talent star as content creator under Tier
+            One Entertainment, a leading gaming and esports talent agency.
+          </li>
+          <li>
+            Collaborated with fellow creators, brands, and esports organizations
+            for promotional campaigns and events.
           </li>
         </ul>
       </motion.div>
