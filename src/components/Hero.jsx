@@ -36,7 +36,7 @@ const Hero = () => {
         >
           <a
             href={cv}
-            download="FD_HAL"
+            download="HtetAungLwin_CV_FrontendDeveloper"
             className="hidden md:block md:w-[45%] cursor-pointer"
           >
             <FramerMagnet>
