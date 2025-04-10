@@ -19,7 +19,7 @@ export const projects = [
   {
     id: 2,
     name: "Mini Soical Media",
-    description: " PHP နဲ့ MySql သုံးထား တဲ့ Mini Social Media Website.",
+    description: "PHP နဲ့ MySql သုံးထား တဲ့ Mini Social Media Website.",
     demolink: null,
     githublink: "https://github.com/HtetAungLw1n/mini-social-media.git",
     tech: ["Php", "Tailwind Css", "MySql", "Xampp"],
@@ -29,7 +29,7 @@ export const projects = [
     id: 3,
     name: "Taiju",
     description:
-      "  မိမိ acc တစ်ခုထဲနဲ့ တစ်ခြားသော platform တွေက acc တွေကို Link အဖြစ်နဲ့စုပေးထားနိုင်တဲ့ Website.",
+      "မိမိ acc တစ်ခုထဲနဲ့ တစ်ခြားသော platform တွေက acc တွေကို Link အဖြစ်နဲ့စုပေးထားနိုင်တဲ့ Website.",
     demolink: null,
     githublink: "https://github.com/HtetAungLw1n/Taiju.git",
     tech: ["React", "Tailwind Css", "Firebase", "Vite"],

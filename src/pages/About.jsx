@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section className="px-4 py-20 container mx-auto">
+    <section className="px-4 md:px-0 pt-20 md:pt-28 container mx-auto">
       {/* intro two cards */}
       <motion.div
         className="bg-zinc-200 p-4 md:py-8 rounded mb-8 w-2/3"

@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 const Contact = () => {
   return (
-    <section>
+    <section className="pt-16 md:pt-28">
       <Email />
       <Footer footerText={"Get in touch"} />
     </section>
