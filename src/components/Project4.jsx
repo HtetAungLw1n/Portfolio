@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { FaGithub, FaNodeJs, FaReact } from "react-icons/fa";
-import image from "../assets/randomly.png";
+import { RiPhpLine, RiTailwindCssFill } from "react-icons/ri";
+import { FaGithub } from "react-icons/fa";
+import { SiXampp, SiMysql } from "react-icons/si";
+import image from "../assets/minisocialmedia.png";
 
-const Project2 = () => {
+const Project4 = () => {
   return (
     <motion.section
-      className="bg-zinc-200 w-full rounded-lg p-4 h-max md:mt-[75%]"
+      className="bg-zinc-200 w-full rounded-lg p-4 h-max md:mt-[45%]"
       initial={{ opacity: 0, y: 15 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -21,19 +22,13 @@ const Project2 = () => {
       </div>
       <div>
         <div className="text-sm text-neutral-600 leading-6 md:text-lg md:leading-9">
-          React.js နဲ့ Node.js သုံးပြီး Full-stack ဆောက်ထားတဲ့အပြင် deployment
-          ပါလုပ်ထားတဲ့ News Website.
+          PHP နဲ့ MySql သုံးထား တဲ့ Mini Social Media Website. User တွေက
+          မိမိကိုယ်ပိုင် acc နဲ့ posts တင်, comments မန့်နိုင်ပြီး Acc name
+          change ခြင်းအပြင် Password ပါ ပြန်ပြောင်းနိုင်ပါတယ်.
         </div>
         <div className="flex gap-4 mt-4 text-base md:text-lg md:mt-6">
           <Link
-            to={"https://randomly.netlify.app/"}
-            target="_blank"
-            className="rounded px-4 py-0.5 flex items-center gap-2 text-mblue border-2 border-mblue hover:bg-mblue hover:text-white-smoke transition duration-200 ease-in-out"
-          >
-            Project demo
-          </Link>
-          <Link
-            to={"https://github.com/HtetAungLw1n/Randomly.git"}
+            to={"https://github.com/HtetAungLw1n/mini-social-media.git"}
             target="_blank"
             className="flex items-center gap-2 px-4 py-0.5 bg-mblue rounded  text-white-smoke"
           >
@@ -43,13 +38,16 @@ const Project2 = () => {
         </div>
         <div className="tech text-sm flex gap-4 mt-4 md:text-lg">
           <div className="text-neutral-600 flex items-center gap-2">
-            <FaReact /> React
+            <RiPhpLine /> Php
           </div>
-          <div className="text-neutral-600  flex items-center gap-2">
-            <FaNodeJs />
-            Node.js
+          <div className="text-neutral-600 flex items-center gap-2">
+            <SiMysql /> MySql
           </div>
-          <div className="text-neutral-600  flex items-center gap-2">
+          <div className="text-neutral-600 flex items-center gap-2">
+            <SiXampp />
+            Xampp
+          </div>
+          <div className="text-neutral-600 flex items-center gap-2">
             <RiTailwindCssFill />
             Tailwind
           </div>
@@ -59,4 +57,4 @@ const Project2 = () => {
   );
 };
 
-export default Project2;
+export default Project4;

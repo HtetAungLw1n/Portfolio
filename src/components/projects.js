@@ -1,4 +1,5 @@
 import randomly from "../assets/randomly.png";
+import notespace from "../assets/NoteSpace.png";
 import minisocialmedia from "../assets/minisocialmedia.png";
 import coffeebar from "../assets/coffeebar.png";
 import medicart from "../assets/medicart.png";
@@ -8,6 +9,16 @@ import taiju from "../assets/taiju.png";
 export const projects = [
   {
     id: 1,
+    name: "NoteSpace",
+    description:
+      " NoteSpace is an AI-powered web application that redefines how users take, organize, and share notes.",
+    githublink:
+      "https://github.com/One-Project-One-Week/NoteSpace-Frontend.git",
+    tech: ["React", "Python", "TailwindCSS", "Django"],
+    image: notespace,
+  },
+  {
+    id: 2,
     name: "Randomly",
     description:
       "React.js နဲ့ Node.js သုံးပြီး Full-stack ဆောက်ထားတဲ့အပြင် deployment ပါလုပ်ထားတဲ့ News Website.",
@@ -17,7 +28,7 @@ export const projects = [
     image: randomly,
   },
   {
-    id: 2,
+    id: 3,
     name: "Mini Soical Media",
     description: "PHP နဲ့ MySql သုံးထား တဲ့ Mini Social Media Website.",
     demolink: null,
@@ -26,7 +37,7 @@ export const projects = [
     image: minisocialmedia,
   },
   {
-    id: 3,
+    id: 4,
     name: "Taiju",
     description:
       "မိမိ acc တစ်ခုထဲနဲ့ တစ်ခြားသော platform တွေက acc တွေကို Link အဖြစ်နဲ့စုပေးထားနိုင်တဲ့ Website.",
@@ -37,7 +48,7 @@ export const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     name: "Coffee Bar",
     description:
       "Coffee ချစ်သူတွေ ကိုယ်တိုင်ကော်ဖီတစ်ခွက် ပြုလုပ်နိုင်ဖို့ Recipes တွေရှိတဲ့ Blog.",
@@ -47,7 +58,7 @@ export const projects = [
     image: coffeebar,
   },
   {
-    id: 5,
+    id: 6,
     name: "Medi-Cart",
     description:
       "React Redux အသုံးပြုထားတဲ့ ဆေးတွေကို Cart system နဲ့ မှာယူလို့ရတဲ့ Project.",
@@ -57,7 +68,7 @@ export const projects = [
     image: medicart,
   },
   {
-    id: 6,
+    id: 7,
     name: "Jujutsu Kaisen",
     description: "Aesthetic responsive Jujutsu kaisen fan-made website.",
     demolink: "https://htetaunglw1n.github.io/jujutsu-kaisen/",
