@@ -15,7 +15,7 @@ const Hero = () => {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.5 }}
             >
-              Delivering Front-End Development
+              Delivering Web Development
             </motion.div>
           </div>
           <div className="overflow-hidden">
@@ -36,7 +36,7 @@ const Hero = () => {
         >
           <a
             href={cv}
-            download="HtetAungLwin_CV_FrontendDeveloper"
+            download="HtetAungLwin_CV_Web_Developer"
             className="hidden md:block md:w-[45%] cursor-pointer"
           >
             <FramerMagnet>
@@ -48,14 +48,14 @@ const Hero = () => {
           </a>
           <div className="md:w-[50%] leading-5 md:leading-9">
             My name is Htet Aung Lwin. I'm from Yangon. I specialize in
-            front-end development with{" "}
+            web development with{" "}
             <span className="underline decoration-wavy decoration-1 underline-offset-4 md:decoration-2 md:underline-offset-8 decoration-mblue">
               React.
             </span>{" "}
             <span className="md:inline hidden">
-              Additionaly I have experience in backend and database enviornment.
-              Therefore I can collaborate effectively with designers and
-              engineers.
+              Additionaly I have experience in backend and database
+              environments. Therefore I can collaborate effectively with
+              designers and engineers.
             </span>
           </div>
         </motion.div>

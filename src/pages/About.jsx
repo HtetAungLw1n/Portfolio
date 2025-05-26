@@ -15,7 +15,7 @@ const About = () => {
         <div className="text-xl md:text-4xl uppercase mb-4">Introduction</div>
         <div className="text-sm md:text-lg text-balance">
           My name is Htet Aung Lwin. I'm from Yangon. I'm currently working as
-          Front-end Developer.
+          Web Developer.
         </div>
       </motion.div>
 
@@ -26,7 +26,7 @@ const About = () => {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <div className="bg-zinc-200 p-4 md:py-8 rounded mb-14 w-2/3">
-          <div className="text-xl md:text-4xl mb-4">Why Front-end?</div>
+          <div className="text-xl md:text-4xl mb-4">Why specialize in front-end?</div>
           <div className="text-sm md:text-lg text-pretty">
             Because I have a good background of{" "}
             <span className="text-mblue font-semibold"> Graphic Design</span>{" "}

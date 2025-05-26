@@ -6,7 +6,7 @@ const SelectedWorks = () => {
   return (
     <section className="container mx-auto px-4">
       <motion.div
-        className="text-2xl font-medium md:text-5xl tracking-normal md:tracking-wide mb-10 md:mb-20"
+        className="text-2xl text-center font-medium md:text-5xl tracking-normal md:tracking-wide mb-10 md:mb-20"
         initial={{ opacity: 0, y: 15 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
