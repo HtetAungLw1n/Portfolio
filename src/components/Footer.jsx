@@ -76,7 +76,7 @@ const Footer = ({ footerText }) => {
               works
             </Link>
             <Link to={"/about-me"} className="hover:text-mblue">
-              my story
+              about me
             </Link>
             <Link to={"/contact"} className="hover:text-mblue">
               contact
